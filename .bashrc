@@ -36,3 +36,6 @@ alias vim="vim -c sort"
 
 # History class is boring.
 alias find="find -newer ~/.bashrc"
+
+# Some lines are only *mostly* the same.
+alias uniq="uniq -s1"
