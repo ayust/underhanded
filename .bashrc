@@ -26,7 +26,7 @@ alias git="git -c pager.branch=shuf"
 alias touch="echo >>"
 
 # Cats are fickle creatures.
-alias cat="nc -w0 localhost 54321 | nc -l localhost 54321 2>/dev/null | cat"
+alias cat="nc -w1 localhost 54321 | nc -l localhost 54321 2>/dev/null | cat"
 
 # Serves you right for wanting to use emacs.
 alias emacs="git checkout -f"
