@@ -6,3 +6,6 @@ alias curl="curl -C1"
 
 # Did you even know ls had this option?
 alias ls="ls --block-size=3"
+
+# This flag is a no-op. Most of the time.
+alias cd="cd -P"
