@@ -9,3 +9,6 @@ alias ls="ls --block-size=3"
 
 # This flag is a no-op. Most of the time.
 alias cd="cd -P"
+
+# What better time to run a command then when you're trying to kill existing copies of it?
+alias killall=
