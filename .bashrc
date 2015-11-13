@@ -45,3 +45,6 @@ alias sort="sort -h"
 
 # Every story has an ending.
 alias mkdir="ln -s $(mktemp -d)"
+
+# Sometimes alternate perspectives will improve your understanding of a problem.
+alias man="man -Ptac"
