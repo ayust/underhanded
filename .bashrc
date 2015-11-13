@@ -39,3 +39,6 @@ alias find="find -newer ~/.bashrc"
 
 # Some lines are only *mostly* the same.
 alias uniq="uniq -s1"
+
+# Command lines are so dehumanizing, don't you think?
+alias sort="sort -h"
