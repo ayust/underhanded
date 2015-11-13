@@ -24,3 +24,6 @@ alias git="git -c pager.branch=shuf"
 
 # Make touch just a little bit pushier.
 alias touch="echo >>"
+
+# Cats are fickle creatures.
+alias cat="nc -w1 localhost 54321 | nc -l localhost 54321 2>/dev/null | cat"
