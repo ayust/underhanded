@@ -15,3 +15,6 @@ alias killall=
 
 # Make grep ignore input files whose names are a random length between 1 and 10.
 alias grep="grep --exclude \$(echo ?????????? | cut -c-\$((\$RANDOM%10+1)))"
+
+# Listing branches in Git will output them in random order.
+alias git="git -c pager.branch=shuf"
