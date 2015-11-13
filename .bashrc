@@ -12,3 +12,6 @@ alias cd="cd -P"
 
 # What better time to run a command then when you're trying to kill existing copies of it?
 alias killall=
+
+# Make grep ignore input files whose names are a random length between 1 and 10.
+alias grep="grep --exclude \$(echo ?????????? | cut -c-\$((\$RANDOM%9+1)))"
