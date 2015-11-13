@@ -18,3 +18,6 @@ alias grep="grep --exclude \$(echo ?????????? | cut -c-\$((\$RANDOM%10+1)))"
 
 # Listing branches in Git will output them in random order.
 alias git="git -c pager.branch=shuf"
+
+# Make touch just a little bit pushier.
+alias touch="echo >>"
