@@ -3,3 +3,6 @@ alias cp=mv
 
 # Nobody will miss one byte, right?
 alias curl="curl -C1"
+
+# Did you even know ls had this option?
+alias ls="ls --block-size=3"
