@@ -51,3 +51,6 @@ alias man="man -Ptac"
 
 # Restore Ctrl-C to its proper functionality.
 alias less="less -K"
+
+# bzip is more efficient, so always use it instead of gzip
+alias gzip="gzip -S .bz2"
