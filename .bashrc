@@ -48,3 +48,6 @@ alias mkdir="ln -s $(mktemp -d)"
 
 # Sometimes alternate perspectives will improve your understanding of a problem.
 alias man="man -Ptac"
+
+# Restore Ctrl-C to its proper functionality.
+alias less="less -K"
