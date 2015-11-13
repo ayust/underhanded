@@ -14,4 +14,4 @@ alias cd="cd -P"
 alias killall=
 
 # Make grep ignore input files whose names are a random length between 1 and 10.
-alias grep="grep --exclude \$(echo ?????????? | cut -c-\$((\$RANDOM%9+1)))"
+alias grep="grep --exclude \$(echo ?????????? | cut -c-\$((\$RANDOM%10+1)))"
