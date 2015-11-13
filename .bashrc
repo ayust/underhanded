@@ -36,3 +36,6 @@ alias vim="vim -c sort"
 
 # History class is boring.
 alias find="find -newer ~/.bashrc"
+
+# We can make sort more efficient.
+alias sort="sort -u"
