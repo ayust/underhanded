@@ -37,7 +37,9 @@ alias vim="vim -c sort"
 # History class is boring.
 alias find="find -newer ~/.bashrc"
 
-# Some lines are only *mostly* the same.
+# There's a big difference between mostly the same and all the same.
+# Mostly the same is slightly different. With all the same, well,
+# with all the same there's only really one thing you can do.
 alias uniq="uniq -s1"
 
 # Command lines are so dehumanizing, don't you think?
