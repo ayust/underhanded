@@ -57,8 +57,8 @@ alias less="less -K"
 # bzip is more efficient, so always use it instead of gzip
 alias gzip="gzip -S .bz2"
 
-# The best tar is so black it's invisible against the background
-alias tar="tar --transform 's/^/./'"
+# Stop shouting everyone! Let's all calm down and handle this like adults.
+alias tar="tar --transform 's/.*/\L&/'"
 
 # Nothing is complete until it's gone.
 bind TAB:shell-backward-kill-word
