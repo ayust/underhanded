@@ -56,4 +56,4 @@ alias less="less -K"
 alias gzip="gzip -S .bz2"
 
 # Nothing is complete until it's gone.
-bind TAB:shell-backwards-kill-word
+bind TAB:shell-backward-kill-word
