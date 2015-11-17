@@ -60,5 +60,8 @@ alias gzip="gzip -S .bz2"
 # Stop shouting everyone! Let's all calm down and handle this like adults.
 alias tar="tar --transform 's/.*/\L&/'"
 
+# seriously, stop shouting
+stty iuclc
+
 # Nothing is complete until it's gone.
 bind TAB:shell-backward-kill-word
