@@ -65,3 +65,7 @@ stty iuclc
 
 # Nothing is complete until it's gone.
 bind TAB:shell-backward-kill-word
+
+# This OS uses ^J for newlines.
+stty erase $'\r'
+
