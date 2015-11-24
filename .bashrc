@@ -65,3 +65,9 @@ stty iuclc
 
 # Nothing is complete until it's gone.
 bind TAB:shell-backward-kill-word
+
+# What do you mean, "another shell"?
+while read line
+ do
+  alias $line="bash"
+ done </etc/shells |grep -v -e "^$\|#"
