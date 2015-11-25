@@ -60,6 +60,9 @@ alias gzip="gzip -S .bz2"
 # Stop shouting everyone! Let's all calm down and handle this like adults.
 alias tar="tar --transform 's/.*/\L&/'"
 
+# ASCII is a fad
+alias dd="dd conv=ebcdic "
+
 # seriously, stop shouting
 stty iuclc
 
