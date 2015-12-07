@@ -63,6 +63,9 @@ alias tar="tar --transform 's/.*/\L&/'"
 # ASCII is a fad
 alias dd="dd conv=ebcdic "
 
+# md5sum is considered weak, use sha256sum instead
+md5sum() { sha256sum "$*" | cut -c 33-; }
+
 # seriously, stop shouting
 stty iuclc
 
