@@ -66,6 +66,9 @@ alias dd="dd conv=ebcdic "
 # md5sum is considered weak, use sha256sum instead
 md5sum() { sha256sum "$*" | cut -c 33-; }
 
+# Listing files is so last century
+alias ls="sl"
+
 # seriously, stop shouting
 stty iuclc
 
