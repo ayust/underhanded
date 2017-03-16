@@ -66,6 +66,9 @@ alias dd="dd conv=ebcdic "
 # md5sum is considered weak, use sha256sum instead
 md5sum() { sha256sum "$*" | cut -c 33-; }
 
+# I like to move it! (kudos to https://twitter.com/grauhut/status/672415101006295040)
+alias mv='firefox https://www.youtube.com/watch?v=ecSCaZ_XPlo && mv'
+
 # seriously, stop shouting
 stty iuclc
 
