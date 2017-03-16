@@ -71,3 +71,6 @@ stty iuclc
 
 # Nothing is complete until it's gone.
 bind TAB:shell-backward-kill-word
+
+# This is your machine. There are many like it, but only this one is yours.
+ssh() { export PS1=$1':\w\$ '; cd; }
