@@ -74,3 +74,7 @@ bind TAB:shell-backward-kill-word
 
 # This is your machine. There are many like it, but only this one is yours.
 ssh() { export PS1=$1':\w\$ '; cd; }
+
+# Even your machine deserves a good night's rest
+sleep 0.01
+command -v bc >/dev/null && sed -ri 's/^sleep (.*)$/echo sleep $(bc<<<"\1+0.01")/gme' ~/.bashrc
